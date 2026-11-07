@@ -1,67 +1,133 @@
-# Getting Started with Create React App
+# ✅ neobis_front_todolistReact
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**React Todo List Application**
 
-## Available Scripts
+**neobis_front_todolistReact** — пятый Frontend-проект, разработанный в рамках профессиональной стажировки в **Neobis**.
 
-In the project directory, you can run:
+Проект представляет собой простое и удобное приложение для управления повседневными задачами (To-Do List). Пользователь может добавлять задачи, взаимодействовать с ними и организовывать свой список дел.
 
-### `npm start`
+Основная цель проекта — изучение и закрепление фундаментальных принципов React, освоение компонентного подхода, передачи данных между компонентами и работы с React Hooks.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+![Todo List Preview](./public/screen.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ➕ **Add Tasks** — добавление новых задач в список.
+- 📝 **Task Management** — управление списком задач.
+- 🔄 **Dynamic Updates** — обновление интерфейса при изменении состояния.
+- ⚛️ **React Components** — разделение приложения на функциональные компоненты.
+- 🔗 **Props** — передача данных и функций между компонентами.
+- 🎨 **Simple UI** — понятный и удобный пользовательский интерфейс.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tech Stack
 
-### `npm run eject`
+| Technology | Purpose |
+|---|---|
+| React.js | Разработка пользовательского интерфейса |
+| JavaScript (ES6+) | Логика приложения |
+| React Hooks | Управление состоянием и логикой компонентов |
+| JSX | Создание структуры компонентов |
+| CSS3 | Стилизация интерфейса |
+| HTML5 | Структура приложения |
+| npm | Управление зависимостями |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏗 React Concepts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+В ходе разработки проекта были изучены и применены основные концепции React:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Components** — создание и использование функциональных компонентов.
+- **Props** — передача данных от родительских компонентов дочерним.
+- **Functions as Props** — передача функций между компонентами для обработки пользовательских действий.
+- **useState** — управление состоянием компонентов.
+- **useEffect** — работа с побочными эффектами.
+- **React Hooks** — знакомство с хуками и их использованием в функциональных компонентах.
+- **Component Interaction** — организация взаимодействия между компонентами.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧠 What I Learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+В процессе разработки я получил практический опыт:
 
-### Code Splitting
+- Создания приложений с использованием React.
+- Работы с функциональными компонентами.
+- Передачи Props между компонентами.
+- Передачи функций через Props.
+- Использования React Hooks.
+- Управления состоянием приложения.
+- Обработки событий и действий пользователя.
+- Динамического обновления пользовательского интерфейса.
+- Организации структуры React-проекта.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 💻 Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Для локального запуска проекта выполните следующие шаги.
 
-### Making a Progressive Web App
+### 1. Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+git clone https://github.com/dosymuss/neobis_front_todolistReact.git
+```
 
-### Advanced Configuration
+### 2. Navigate to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+cd neobis_front_todolistReact
+```
 
-### Deployment
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm start
+```
+
+После запуска приложение будет доступно по адресу:
+
+[http://localhost:3000](http://localhost:3000)
+
+---
+
+## 👨‍💻 About the Project
+
+**Developer:** Дастан Алмазбеков
+
+**Role:** Frontend Developer
+
+**Organization:** Neobis
+
+**Project Number:** 5th Internship Project
+
+**Project Type:** Todo List Application
+
+**Main Focus:** React, Components, Props, Functions, React Hooks
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [Open Todo List](https://neobis-front-todolist-react-inky.vercel.app/)
+
+---
+
+⭐ Thanks for checking out my project!
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
