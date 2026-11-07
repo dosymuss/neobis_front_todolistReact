@@ -6,7 +6,7 @@ import PostList from "./components/PostList";
 
 function App() {
 const [lists, setLists] = useState([
-  {id:1,value:"gygygy",category:"bus"}
+
 ])
 const createList = (newList)=>{
 setLists([...lists, newList])
